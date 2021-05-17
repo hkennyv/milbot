@@ -1,0 +1,27 @@
+{
+  "name": "milbot",
+  "version": "1.0.0",
+  "description": "'milbot",
+  "main": "src/index.ts",
+  "repository": "https://github.com/hkennyv/milbot",
+  "author": "@hkennyv",
+  "license": "MIT",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "clean": "rm -r ./build",
+    "lint": "eslint src/**/*.ts",
+    "start": "tsc && node build/src/index.js"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.1",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "eslint": "^5.16.0",
+    "prettier": "^2.3.0",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "nodemailer": "^6.6.0"
+  }
+}
