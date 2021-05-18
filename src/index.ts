@@ -2,8 +2,8 @@ import { config } from "./config";
 import { sendSmsMail, MessageType } from "./mailer";
 
 const testMessage: MessageType = {
-  subject: "milbot",
-  text: "test message!!",
+  subject: "YO",
+  text: "SAUMIL!!!!!!!!!!!!!!!",
 };
 
 for (const carrier of ["tmobile", "att", "verizon"]) {

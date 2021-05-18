@@ -9,6 +9,7 @@
   "scripts": {
     "check": "tsc --noEmit",
     "clean": "rm -r ./build",
+    "format:check": "prettier --check src/**/*.ts",
     "lint": "eslint src/**/*.ts",
     "start": "tsc && node build/src/index.js"
   },
