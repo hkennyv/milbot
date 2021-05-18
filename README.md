@@ -1,5 +1,8 @@
 # milbot
 
+![action-format](https://github.com/hkennyv/milbot/actions/workflows/format.yml/badge.svg)
+![action-lint](https://github.com/hkennyv/milbot/actions/workflows/lint.yml/badge.svg)
+
 ## Usage
 
 To run the bot, ensure you have [node.js](https://nodejs.org/en/download/)
